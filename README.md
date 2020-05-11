@@ -65,7 +65,7 @@ More information on Cumulocity IoT and how to start a free trial can be found [h
 
 Cumulocity IoT enables companies to to quickly and easily implement smart IoT solutions.
 
-![Dashboard](Screenshots/2020-03-21 21_09_02-Clipboard.png)
+![Dashboard](Screenshots/Dashboard.png)
 
 ______________________
 For more information regarding Cumulocity you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=cumulocity).
