@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "af92deaa-0dee-4185-b576-a96ab9decd13",
+		"name": "CoviDash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create bed capacity measurement normal",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{auth}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/vnd.com.nsn.cumulocity.measurement+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"Normal\": {\r\n\t\t\"Total\": {\r\n\t\t\t\t\"value\": 100\r\n        \t\t},\r\n\t\t\"Max\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"Belegt\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"DavonBelegtmitCovid\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"Frei\": {\r\n\t\t\t\t\"value\": 30\r\n        \t\t}\r\n\t\t\t\t},\r\n    \"source\": {\r\n    \t\"id\":\"660\" },\r\n    \"type\": \"Bed_Capacitiy\",\r\n    \"time\": \"2020-03-21T14:09:04.010Z\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url}}/measurement/measurements",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"measurement",
+						"measurements"
+					]
+				},
+				"description": "#### For a detailed description of the API please check out our [Measurement Reference Guide](http://cumulocity.com/guides/reference/measurements/)"
+			},
+			"response": []
+		},
+		{
+			"name": "Create bed capacity measurement normal ICU-",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{auth}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/vnd.com.nsn.cumulocity.measurement+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ICU-\": {\r\n\t\t\"Total\": {\r\n\t\t\t\t\"value\": 100\r\n        \t\t},\r\n\t\t\"Max\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"Belegt\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"DavonBelegtmitCovid\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"Frei\": {\r\n\t\t\t\t\"value\": 30\r\n        \t\t}\r\n\t\t\t\t},\r\n    \"source\": {\r\n    \t\"id\":\"660\" },\r\n    \"type\": \"Bed_Capacitiy\",\r\n    \"time\": \"2020-03-21T14:09:04.010Z\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url}}/measurement/measurements",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"measurement",
+						"measurements"
+					]
+				},
+				"description": "#### For a detailed description of the API please check out our [Measurement Reference Guide](http://cumulocity.com/guides/reference/measurements/)"
+			},
+			"response": []
+		},
+		{
+			"name": "Create bed capacity measurement normal ICU+",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{auth}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/vnd.com.nsn.cumulocity.measurement+json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ICU+\": {\r\n\t\t\"Total\": {\r\n\t\t\t\t\"value\": 100\r\n        \t\t},\r\n\t\t\"Max\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"Belegt\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"DavonBelegtmitCovid\": {\r\n\t\t\t\t\"value\": 110\r\n        \t\t},\r\n\t\t\"Frei\": {\r\n\t\t\t\t\"value\": 30\r\n        \t\t}\r\n\t\t\t\t},\r\n    \"source\": {\r\n    \t\"id\":\"660\" },\r\n    \"type\": \"Bed_Capacitiy\",\r\n    \"time\": \"2020-03-21T14:09:04.010Z\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url}}/measurement/measurements",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"measurement",
+						"measurements"
+					]
+				},
+				"description": "#### For a detailed description of the API please check out our [Measurement Reference Guide](http://cumulocity.com/guides/reference/measurements/)"
+			},
+			"response": []
+		},
+		{
+			"name": "Create hospital with measurement support",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{auth}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Alice-Hospital Darmstadt\",\r\n  \"c8y_Position\": {\"lng\": 8.6624854, \"lat\": 49.8774004},\r\n  \"Capacity\": {\r\n            \"Normal\": {\r\n                            \"Target\": 100, \"Max\": 110, \"Occupied\": 70, \"OccupiedCovid\": 30, \"Free\": 30},\r\n            \"ICU-\": {\r\n                            \"Target\": 100, \"Max\": 110, \"Occupied\": 70, \"OccupiedCovid\": 30, \"Free\": 30},\r\n            \"ICU+\": {\r\n                            \"Target\": 100, \"Max\": 110, \"Occupied\": 70, \"OccupiedCovid\": 30, \"Free\": 30}  \r\n                      },\r\n  \"c8y_IsDevice\": {},\r\n  \"IsHospital\": {},\r\n  \"type\": \"Hospital\",\r\n  \"State\": \"Hessen\"}\r\n"
+				},
+				"url": {
+					"raw": "{{url}}/inventory/managedObjects",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"inventory",
+						"managedObjects"
+					]
+				},
+				"description": "#### For a detailed description of the API please check out our [Inventory Reference Guide](http://cumulocity.com/guides/reference/inventory/)"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

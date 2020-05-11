@@ -1,0 +1,75 @@
+{
+"ITSBettenBPlus": {
+		"Target": {
+				"value": 100
+        		},
+		"Max": {
+				"value": 110
+        		},
+		"Occupied": {
+				"value": 110
+        		},
+		"OccupiedCovid": {
+				"value": 110
+        		},
+		"Free": {
+				"value": 30
+        		}
+				},
+    "source": {
+    	"id":"660" },
+    "type": "Bed_Capacity",
+    "time": "2020-03-21T14:09:04.010Z"
+}
+
+
+
+
+{
+"ITSBettenBMinus": {
+		"Total": {
+				"value": 100
+        		},
+		"Max": {
+				"value": 110
+        		},
+		"Belegt": {
+				"value": 110
+        		},
+		"DavonBelegtmitCovid": {
+				"value": 110
+        		},
+		"Frei": {
+				"value": 30
+        		}
+				},
+    "source": {
+    	"id":"660" },
+    "type": "Bettenkapazitaet",
+    "time": "2020-03-21T14:09:04.010Z"
+}
+
+
+{
+"Normal": {
+		"Total": {
+				"value": 100
+        		},
+		"Max": {
+				"value": 110
+        		},
+		"Belegt": {
+				"value": 110
+        		},
+		"DavonBelegtmitCovid": {
+				"value": 110
+        		},
+		"Frei": {
+				"value": 30
+        		}
+				},
+    "source": {
+    	"id":"660" },
+    "type": "Bettenkapazitaet",
+    "time": "2020-03-21T14:09:04.010Z"
+}

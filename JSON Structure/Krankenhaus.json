@@ -1,0 +1,9 @@
+{"name": "Alice-Hospital Darmstadt",
+  "c8y_Position": {"lng": 8.6624854, "lat": 49.8774004},
+  "Bettenkapazitaet": {"Normalbetten": {"Soll": 100, "Max": 110, "Belegt": 70, "DavonBelegtmitCovid": 30, "Frei": 30},
+  "ITSBettenBMinus": {},
+  "ITSBettenBPlus": {}},
+  "c8y_IsDevice": {},
+  "IsKrankenhaus": {},
+  "type": "Krankenhaus",
+  "Bundesland": "Hessen"}
