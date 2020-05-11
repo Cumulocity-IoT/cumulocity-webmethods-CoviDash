@@ -21,12 +21,10 @@ component for data entry can be added to CoviDash with little effort.
 
 ## Benefits
 
-Visibility of crucial Covid-19 hospital resources based on a predefined,
-expandable dashboard supporting various visualizations (maps etc.) and
-aggregation levels.
-• Elimination of redundant administrative work. Only data that is currently not registered needs to be entered.
-• Quick connectivity to source systems with technical interfaces of different type and maturity (“from files to APIs”)
-• Free code, free hosting during thepandemic. Compliance to EU data protection standards (DSGVO/GDPR conformity) is possible, subject to confirmation based on source system location and other factors.
+1. Visibility of crucial Covid-19 hospital resources based on a predefined, expandable dashboard supporting various visualizations (maps etc.) and aggregation levels.
+2. Elimination of redundant administrative work. Only data that is currently not registered needs to be entered.
+3. Quick connectivity to source systems with technical interfaces of different type and maturity (“from files to APIs”)
+4. Free code, free hosting during thepandemic. Compliance to EU data protection standards (DSGVO/GDPR conformity) is possible, subject to confirmation based on source system location and other factors.
 
 ##  webMethods Integration Server
 
