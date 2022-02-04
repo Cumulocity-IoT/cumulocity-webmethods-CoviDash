@@ -68,13 +68,13 @@ Cumulocity IoT enables companies to to quickly and easily implement smart IoT so
 ![Dashboard](Screenshots/Dashboard.png)
 
 ______________________
-For more information regarding Cumulocity you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=cumulocity).
+For more information regarding Cumulocity you can Ask a Question in the [TECHcommunity Forums](https://tech.forums.softwareag.com/tags/c/forum/1/Cumulocity-IoT).
 
-For more information regarding webMethods you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=webmethods-io-b2b).
+For more information regarding webMethods you can Ask a Question in the [TECHcommunity Forums](https://tech.forums.softwareag.com/tags/c/forum/1/webMethods).
 
-You can find additional information on webMethods in the [Software AG TECHcommunity](http://techcommunity.softwareag.com/home/-/product/name/webmethods-io-b2b).
+You can find additional information on webMethods in the [Software AG TECHcommunity](https://tech.forums.softwareag.com/tag/webmethods).
 
-You can find additional information on Cumulocity in the [Software AG TECHcommunity](http://techcommunity.softwareag.com/home/-/product/name/cumulocity).
+You can find additional information on Cumulocity in the [Software AG TECHcommunity](https://tech.forums.softwareag.com/tag/Cumulocity-IoT).
 ______________________
 
 These tools are provided as-is and without warranty or support. They do not constitute part of the Software AG product suite. Users are free to use, fork and modify them, subject to the license agreement. While Software AG welcomes contributions, we cannot guarantee to include every contribution in the master project.
